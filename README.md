@@ -1,6 +1,6 @@
 9-4-17
 
-I'm working through this CSCI 151 Data Structures syllabus posted on Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
+I'm working through this CSCI 151 Data Structures syllabus posted on the Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
 
 ## Data Structures
 * ArrayLists
