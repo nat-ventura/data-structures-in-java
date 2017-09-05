@@ -6,7 +6,7 @@ I'm working through this CSCI 151 Data Structures syllabus posted on Oberlin Col
 
 My goal is to learn how these data structures work and how/when they can be used.
 
-##Data Structures
+## Data Structures
 * ArrayLists
 * Linked Structures, especially singly and doubly linked lists
 * Stacks
@@ -18,7 +18,7 @@ My goal is to learn how these data structures work and how/when they can be used
 * Tries
 * Graphs
 
-##Algorithms
+## Algorithms
 * Big-Oh notation (upper bounds and lower bounds)
 * Algorithm analysis
 * BubbleSort, SelectionSort, InsertionSort
