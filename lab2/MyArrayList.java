@@ -49,6 +49,7 @@ public class MyArrayList<AnyType> extends AbstractList<AnyType> {
 
     /**
      * Returns number of elements in ArrayList
+     * 
      * @return
      */
     public int size() {
@@ -62,8 +63,8 @@ public class MyArrayList<AnyType> extends AbstractList<AnyType> {
     }
 
     /**
-     * Adds element to chosen index
-     * All other elements are shifted right
+     * Adds element to chosen index, all other elements are shifted right
+     * 
      * @param index
      * @param element
      */
@@ -112,5 +113,64 @@ public class MyArrayList<AnyType> extends AbstractList<AnyType> {
 	    return data[index];
 	}
     }
+
+    /**
+     * Sets the value at an element's index and returns the previous value
+     * 
+     * @param index
+     * @param element
+     * @return
+     */
+    public AnyType set(int index, AnyType element) {
+	if (index > size() - 1) {
+	    throw new IndexOutOfBoundsException("The index you entered is out of range. Sad!");
+	} else {
+	    AnyType temp = data[index];
+	    data[index] = element;
+	    return temp;
+	}
+    }
+
+    /**
+     * Removes the value at an index and returns the value
+     * 
+     * @param index
+     * @return
+     */
+    public AnyType remove(int index) {
+	if (index > size() - 1) {
+	    throw new IndexOutOfBoundsException("The index you entered is out of range. Sad!");
+	} else {
+	    AnyType returnValue = data[index];
+	    while (size() > index) {
+		data[index] = data[index + 1];
+		index++;
+	    }
+	    return returnValue;
+	}
+    }
+
+    /**
+     * Checks if MyArrayList is empty, returns boolean
+     * 
+     * @return
+     */
+    public boolean isEmpty() {
+	if (0 != size()) {
+	    return false;
+	} else {
+	    return true;
+	}
+    }
+
+    /**
+     * Sets all values to null
+     */
+    public void clear() {
+	for (int windex = 0; windex < data.length; windex++) {
+	    data[windex] = null;
+	}
+    }
+
 
 }
