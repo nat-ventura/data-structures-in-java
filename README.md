@@ -50,6 +50,11 @@ I thought this would also be a great opportunity to get more comfortable with Ja
 * Create a class using Generics
 * Use an Abstract class to jumpstart implementation
 * Practice using JUnit for proper testing
-* Think about ways to use classes
 
 ### Lab 3: Stacks and Queues (Simply A-Maze-ing!)
+
+#### Goals
+* Implement a Stack and a Queue
+* Build a simple linked list of nodes
+* Use your Stack and Queue to solve a maze
+* Compare differences between two solution strategies
