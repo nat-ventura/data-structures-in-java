@@ -86,12 +86,31 @@ public class MyArrayList<AnyType> extends AbstractList<AnyType> {
     }
 
     /**
+     * Adds element to end of ArrayList
+     * 
+     * @param element
+     * @return
+     */
+    public boolean add(AnyType element) {
+	if (data.length == size()) {
+	    resize();
+	}
+	add(size(), element);
+	return true;
+    }
+
+    /**
+     * Returns the value at the specified index
+     * 
      * @param index
      * @return
      */
-    @Override
     public AnyType get(int index) {
-	// TODO Auto-generated method stub
-	return null;
+	if (index > size() - 1) {
+	    throw new IndexOutOfBoundsException("The index you entered is out of range.");
+	} else {
+	    return data[index];
+	}
     }
+
 }
