@@ -1,4 +1,4 @@
-## Project List
+## Project Table of Contents
 * [Lab 1 - Just Java-ing Around](#lab-1-just-java-ing-around)
 * [Lab 2 - MyArrayList Testing](#lab-2-myarraylist-testing)
 * [Lab 3 - Stacks and Queues: Simply A-Maze-ing!](#lab-3-stacks-and-queues-simply-a-maze-ing)
