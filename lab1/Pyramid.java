@@ -15,7 +15,8 @@ public class Pyramid {
     public static void main(String[] args) {
 
 	if (args.length != 1) {
-	    System.out.println("Please make sure that you're specifying pyramid height in the command line!");
+	    System.out.println("I will draw a pyramid but please specify the pyramid height in the command line!\n"
+	    	+ " i.e. `java Pyramid 6`");
 	    System.exit(1);
 	}
 	int height = Integer.parseInt(args[0]);

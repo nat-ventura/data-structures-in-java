@@ -1,11 +1,10 @@
 import java.util.Random;
 import java.util.Scanner;
 
-/** Numeric guessing game. Computer picks a number between 1 and 1000,
- * then the user guesses what the number is.
- */
-
 /**
+ * Numeric guessing game. Computer picks a number between 1 and 1000, then the
+ * user guesses what the number is.
+ * 
  * @author natventura
  *
  */

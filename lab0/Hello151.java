@@ -1,7 +1,3 @@
-/**please work
- * 
- */
-
 /**
  * @author natventura
  *
