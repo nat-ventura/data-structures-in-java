@@ -199,5 +199,54 @@ public class MyArrayListTest {
 	assertEquals(true, real.isEmpty());
     }
 
+    @Ignore
+    public void testAddEfficiency() throws InterruptedException {
+	int counter = 0;
+	MyArrayList<Integer> test = new MyArrayList<Integer>();
+	for (int i = 0; i < 100000; i++) {
+	    int addMe = test.size();
+	    test.add(addMe);
+	    counter++;
+	    if (counter == 100000) {
+		System.out.println(test.size());
+		counter = 0;
+	    }
+	}
+    }
+
+    @Ignore
+    public void testRemoveEfficiency() throws InterruptedException {
+	MyArrayList<Integer> test = new MyArrayList<Integer>();
+	for (int i = 0; i < 100000; i++) {
+	    test.add(i);
+	}
+	int counter = 0;
+	for (int j = 99999; j >= 0; j--) {
+	    test.remove(j);
+	    counter++;
+	    if (counter == 100000) {
+		System.out.println(test.size());
+		counter = 0;
+	    }
+	}
+	System.out.println(test.size());
+    }
+
+    @Test
+    public void testMemory() {
+	MyArrayList<Integer> test = new MyArrayList<Integer>();
+	for (int i = 0; i < 100000; i++) {
+	    while (9 < i) {
+		i /= 10;
+	    }
+	    if (Math.abs(i) == 1) {
+		test.add(i);
+		if ((i % 10000) == 0) {
+		    System.out.println(i);
+		}
+	    }
+	}
+    }
+
 
 }
