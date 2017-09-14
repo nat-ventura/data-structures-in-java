@@ -1,6 +1,6 @@
 9-4-17
 
-I'm working through this CSCI 151 Data Structures syllabus posted on the Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
+I'm working through this [CSCI 151 Data Structures syllabus](http://cs.oberlin.edu/~bob/cs151/) posted on the Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
 
 ## Data Structures
 * ArrayLists
@@ -27,4 +27,4 @@ I'm working through this CSCI 151 Data Structures syllabus posted on the Oberlin
 
 I know there are many ways to practice computer science fundamentals online (LeetCode, HackerRank, Cracking the Coding Interview)-- but I figured that in addition to daily exercises, it would be helpful for me to learn data structure fundamentals in a purposefully structured format.
 
-This would also be a good opportunity to learn Java where the coursework specifically assumes prior experience with Python programming.
+I thought this would also be a great opportunity to get more comfortable with Java. This course is meant to pick up where the previous course (Intro to Computer Science) left off, while also transitioning future computer science majors from Python to Java.
