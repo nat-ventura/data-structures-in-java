@@ -29,9 +29,7 @@ I'm working through this [CSCI 151 Data Structures syllabus](http://cs.oberlin.e
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-I know there are many ways to practice computer science fundamentals online (LeetCode, HackerRank, Cracking the Coding Interview)-- but I figured that in addition to daily exercises, it would be helpful for me to learn data structure fundamentals in a purposefully structured format.
-
-I thought this would also be a great opportunity to get more comfortable with Java. This course is meant to pick up where the previous course (Intro to Computer Science) left off, while also transitioning future computer science majors from Python to Java.
+There are many ways to practice computer science fundamentals online (LeetCode, HackerRank, Cracking the Coding Interview)-- but I figured that it would also be helpful for me to learn data structure fundamentals in a purposefully structured format.
 
 ## Projects
 
