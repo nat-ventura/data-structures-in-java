@@ -10,10 +10,6 @@ import java.util.Scanner;
 import static org.junit.Assert.*;
 
 /**
- * 
- */
-
-/**
  * @author natventura
  *
  */
@@ -232,7 +228,7 @@ public class MyArrayListTest {
 	System.out.println(test.size());
     }
 
-    @Test
+    @Ignore
     public void testMemory() {
 	MyArrayList<Integer> test = new MyArrayList<Integer>();
 	for (int i = 0; i < 100000; i++) {
