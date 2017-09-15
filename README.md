@@ -1,7 +1,8 @@
-## Labs
+## Project List
 * [Lab 1 - Just Java-ing Around](#lab-1-just-java-ing-around)
 * [Lab 2 - MyArrayList Testing](#lab-2-myarraylist-testing)
 * [Lab 3 - Stacks and Queues: Simply A-Maze-ing!](#lab-3-stacks-and-queues-simply-a-maze-ing)
+* [Lab 4 - Link'em Up](#lab-4-link-em-up)
 
 ## Overview
 I'm working through this [CSCI 151 Data Structures syllabus](http://cs.oberlin.edu/~bob/cs151/) posted on the Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
@@ -56,3 +57,10 @@ There are many ways to practice computer science fundamentals online (LeetCode, 
 * Build a simple linked list of nodes
 * Use your Stack and Queue to solve a maze
 * Compare differences between two solution strategies
+
+### Lab 4: Link'em Up
+
+#### Goals
+* Implement a doubly linked list
+* Build an iterator
+* Explore difference in running time between different data orderings
