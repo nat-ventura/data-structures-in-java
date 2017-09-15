@@ -41,7 +41,7 @@ public class Maze {
 		}
 	    }
 	    System.out.println(mazeArray.length);
-	    // reset();
+	    reset();
 	    return true;
 	} catch (FileNotFoundException e) {
 	    return false;
@@ -86,6 +86,26 @@ public class Maze {
      */
     public Square getStart() {
 	return startSquare;
+    }
+
+    /**
+     * Finds exit square of the maze
+     * 
+     * @return finishSquare
+     */
+    public Square getFinish() {
+	return finishSquare;
+    }
+
+    /**
+     * Resets the maze to initial configuration
+     */
+    public void reset() {
+	for (int row = 0; row < numRows; row++) {
+	    for (int col = 0; col < numCols; col++) {
+		mazeArray[row][col].resetType();
+	    }
+	}
     }
 
     /**
