@@ -16,19 +16,9 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>MazeApp.class</name>
-			<type>1</type>
-			<locationURI>PROJECT_LOC/MazeApp/MazeApp.class</locationURI>
-		</link>
-		<link>
 			<name>MazeApp.java</name>
 			<type>1</type>
 			<locationURI>PROJECT_LOC/MazeApp/MazeApp.java</locationURI>
-		</link>
-		<link>
-			<name>QueueADT.class</name>
-			<type>1</type>
-			<locationURI>PROJECT_LOC/MazeApp/QueueADT.class</locationURI>
 		</link>
 		<link>
 			<name>QueueADT.java</name>
