@@ -138,7 +138,7 @@ public class Square {
      * 
      * @return squarePrevious
      */
-    public Square getSquarePrevoius() {
+    public Square getSquarePrevious() {
 	return squarePrevious;
     }
 }
