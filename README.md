@@ -1,10 +1,11 @@
-## Labs
-* [Lab 1 - Just Java-ing Around](#lab-1-just-java-ing-around)
-* [Lab 2 - MyArrayList Testing](#lab-2-myarraylist-testing)
-* [Lab 3 - Stacks and Queues: Simply A-Maze-ing!](#lab-3-stacks-and-queues-simply-a-maze-ing)
+## Project List
+* [Lab 1 - Java Java](#lab-1-java-java)
+* [Lab 2 - Making My Own ArrayList](#lab-2-making-my-own-arraylist)
+* [Lab 3 - Navigating Mazes with Stacks and Queues!](#lab-3-navigating-mazes-with-stacks-and-queues)
+* [Lab 4 - Linked Lists!](#lab-4-linked-lists)
 
 ## Overview
-I'm working through this [CSCI 151 Data Structures syllabus](http://cs.oberlin.edu/~bob/cs151/) posted on the Oberlin College Computer Science department page. My goal is to learn how these data structures work and how/when they can be used.
+I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used.
 
 #### Data Structures
 * ArrayLists
@@ -33,7 +34,7 @@ There are many ways to practice computer science fundamentals online (LeetCode, 
 
 ## Projects
 
-### Lab 1: Just Java-ing Around
+### Lab 1: Java Java
 
 #### Goals
 * Practice working with Java
@@ -41,7 +42,7 @@ There are many ways to practice computer science fundamentals online (LeetCode, 
 * Practice using arrays
 * Use Scanner to handle input from users and files
 
-### Lab 2: MyArrayList Testing
+### Lab 2: Making My Own ArrayList
 
 #### Goals
 * Learn about Java Collections Framework
@@ -49,10 +50,17 @@ There are many ways to practice computer science fundamentals online (LeetCode, 
 * Use an Abstract class to jumpstart implementation
 * Practice using JUnit for proper testing
 
-### Lab 3: Stacks and Queues (Simply A-Maze-ing!)
+### Lab 3: Navigating Mazes with Stacks and Queues!
 
 #### Goals
 * Implement a Stack and a Queue
 * Build a simple linked list of nodes
 * Use your Stack and Queue to solve a maze
 * Compare differences between two solution strategies
+
+### Lab 4: Linked Lists!
+
+#### Goals
+* Implement a doubly linked list
+* Build an iterator
+* Explore difference in running time between different data orderings
