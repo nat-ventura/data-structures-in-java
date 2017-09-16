@@ -62,17 +62,21 @@ public class Maze {
 	int colValue = sq.getCol();
 	ArrayList<Square> neighbors = new ArrayList<Square>();
 
-	if (!(colValue == 0) && sq.getType() != 1) {
-	    neighbors.add(mazeArray[rowValue][colValue - 1]);
+	// NORTH
+	if (rowValue != 0) {
+	    neighbors.add(mazeArray[rowValue - 1][colValue]);
 	}
-	if (!(rowValue == numRows - 1) && sq.getType() != 1) {
-	    neighbors.add(mazeArray[rowValue + 1][colValue]);
-	}
-	if (!(colValue == numCols - 1) && sq.getType() != 1) {
+	// EAST
+	if (colValue != numCols - 1) {
 	    neighbors.add(mazeArray[rowValue][colValue + 1]);
 	}
-	if (!(rowValue == 0) && sq.getType() != 1) {
-	    neighbors.add(mazeArray[rowValue - 1][colValue]);
+	// SOUTH
+	if (rowValue != numRows - 1) {
+	    neighbors.add(mazeArray[rowValue + 1][colValue]);
+	}
+	// WEST
+	if (colValue != 0) {
+	    neighbors.add(mazeArray[rowValue][colValue - 1]);
 	}
 
 	return neighbors;
@@ -119,7 +123,7 @@ public class Maze {
 	    for (int col = 0; col < numCols; col++) {
 		mazeString += mazeArray[row][col].toString();
 	    }
-	    mazeString += "/n";
+	    mazeString += "\n";
 	}
 	return mazeString;
     }

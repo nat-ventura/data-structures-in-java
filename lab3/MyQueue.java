@@ -21,30 +21,20 @@ public class MyQueue<T> implements QueueADT {
 
     @Override
     public T dequeue() {
-	try {
-	    if (queue.size() != 0) {
+	if (queue.size() != 0) {
 		return queue.remove(0);
-	    } else {
+	} else {
 		throw new NoSuchElementException();
-	    }
-	} catch (NoSuchElementException e) {
-	    System.out.println("Queue is empty.");
 	}
-	return null;
     }
 
     @Override
     public T front() {
-	try {
-	    if (queue.size() != 0) {
-		return queue.get(0);
-	    } else {
-		throw new NoSuchElementException();
-	    }
-	} catch (NoSuchElementException e) {
-	    System.out.println("Queue is empty.");
+	if (queue.size() != 0) {
+	    return queue.get(0);
+	} else {
+	    throw new NoSuchElementException();
 	}
-	return null;
     }
 
     @Override

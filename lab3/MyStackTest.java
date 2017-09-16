@@ -37,10 +37,6 @@ public class MyStackTest {
 	assertEquals("Size", testStack.size(), realStack.size());
     }
 
-    @Test
-    public void testPop() throws Exception {
-
-    }
 
     @Test
     public void testIsEmpty() throws Exception {

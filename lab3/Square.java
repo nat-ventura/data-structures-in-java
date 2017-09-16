@@ -11,13 +11,16 @@ public class Square {
     public static final int WALL = 1;
     public static final int START = 2;
     public static final int EXIT = 3;
+
     public static final int WORKLIST = 4;
     public static final int EXPLORED = 5;
     public static final int FINALPATH = 6;
+    // public static final int UNEXPLORED = 7;
 
-    Point location;
+    private Point location;
     private int squareType;
     private int finalType;
+    // private int status;
     private Square squarePrevious;
 
     /**
@@ -35,6 +38,9 @@ public class Square {
 	location = new Point(Row, Column);
 	finalType = typeInt;
 	squarePrevious = null;
+	/*
+	 * if (squareType == SPACE) { status = UNEXPLORED; }
+	 */
     }
     
     /**
@@ -42,25 +48,36 @@ public class Square {
      * 
      * @return String representation of squareType
      */
+/*
+    public int setStatus(int statusType) {
+	if (squareType == SPACE) {
+	    status = statusType;
+	    return 1;
+	}
+	return 0;// you could throw an error here if you wanted too
+    }
+*/
+
     public String toString() {
 	switch (squareType) {
 	case SPACE:
 	    return "_";
-	case WALL:
-	    return "#";
-	case START:
-	    return "S";
-	case EXIT:
-	    return "E";
 	case WORKLIST:
 	    return "o";
 	case EXPLORED:
 	    return ".";
 	case FINALPATH:
 	    return "x";
+	case WALL:
+	    return "#";
+	case START:
+	    return "S";
+	case EXIT:
+	    return "E";
 	default:
 	    return "None";
 	}
+
     }
 
     /**

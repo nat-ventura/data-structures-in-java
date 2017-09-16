@@ -23,17 +23,13 @@ public class MyStack<T> implements StackADT {
     }
 
     public T pop() {
-	try {
 	    if (x.size() != 0) {
 		T z = x.remove(x.size() - 1);
 		return z;
 	    } else {
 		throw new NoSuchElementException();
 	    }
-	} catch (NoSuchElementException e) {
-	    System.out.println("You tried to remove an element, but the stack is empty.");
-	}
-	return null;
+
     }
 
     public T top() {
