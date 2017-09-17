@@ -1,11 +1,15 @@
-## Project List
+# Data Structures in Java
+
+I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used.
+
+## Table of Contents
+* [Major Concepts](#major-concepts)
 * [Lab 1 - Java Java](#lab-1-java-java)
 * [Lab 2 - Making My Own ArrayList](#lab-2-making-my-own-arraylist)
 * [Lab 3 - Navigating Mazes with Stacks and Queues!](#lab-3-navigating-mazes-with-stacks-and-queues)
 * [Lab 4 - Linked Lists!](#lab-4-linked-lists)
 
-## Overview
-I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used.
+## Major Concepts
 
 #### Data Structures
 * ArrayLists
