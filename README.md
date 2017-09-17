@@ -62,6 +62,8 @@ The goal was to write "my own ArrayList" class, or MyArrayList to better underst
 
 ### Lab 3: Navigating Mazes with Stacks and Queues!
 
+Created a MyStack and MyQueue class, then a class to solve text-based mazes using either the stack or queue data structure to move through the maze-- marking walls, the edges of the maze, and the start and finish. The end result is viewable in a provided GUI interface, as your "team of explorers" moves through given text-based mazes according to the queue structure or stack structure.
+
 #### Goals
 * Implement a Stack and a Queue
 * Build a simple linked list of nodes
