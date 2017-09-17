@@ -1,6 +1,6 @@
 # Data Structures in Java
 
-I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used.
+I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used. I'm working with Java in Eclipse.
 
 ## Table of Contents
 * [Major Concepts](#major-concepts)
