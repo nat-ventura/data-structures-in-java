@@ -4,10 +4,10 @@ I'm working through a class on data structures using a college syllabus (I'm try
 
 ## Table of Contents
 * [Major Concepts](#major-concepts)
-* [Lab 1 - Java Java](#lab-1-java-java)
-* [Lab 2 - Making My Own ArrayList](#lab-2-making-my-own-arraylist)
-* [Lab 3 - Navigating Mazes with Stacks and Queues!](#lab-3-navigating-mazes-with-stacks-and-queues)
-* [Lab 4 - Linked Lists!](#lab-4-linked-lists)
+* [Lab 1 - Java Java](#lab-1---java-java)
+* [Lab 2 - Making My Own ArrayList](#lab-2---making-my-own-arraylist)
+* [Lab 3 - Navigating Mazes with Stacks and Queues!](#lab-3---navigating-mazes-with-stacks-and-queues)
+* [Lab 4 - Linked Lists!](#lab-4---linked-lists)
 
 ## Major Concepts
 
@@ -36,9 +36,7 @@ Many exercises in computer science fundamentals are available online (LeetCode, 
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-## Projects
-
-## Lab 1: Java Java
+## Lab 1 - Java Java
 
 This lab was mostly reviewing concepts learned in Python and getting more familiar with Java.
 
@@ -50,7 +48,7 @@ The practice included printing a pyramid of stars to the console (classic), writ
 * Practice using arrays
 * Use Scanner to handle input from users and files
 
-## Lab 2: Making My Own ArrayList
+## Lab 2 - Making My Own ArrayList
 
 The goal was to write "my own ArrayList" class, or MyArrayList to better understand everything Java's built-in ArrayList class. I also wrote a series of test to make sure that MyArrayList behaved the same as the given ArrayList.
 
@@ -60,7 +58,7 @@ The goal was to write "my own ArrayList" class, or MyArrayList to better underst
 * Use an Abstract class to jumpstart implementation
 * Practice using JUnit for proper testing
 
-## Lab 3: Navigating Mazes with Stacks and Queues!
+## Lab 3 - Navigating Mazes with Stacks and Queues!
 
 Created a MyStack and MyQueue class, then a class to solve text-based mazes using either the stack or queue data structure to move through the maze-- marking walls, the edges of the maze, and the start and finish. The end result is viewable in a provided GUI interface, as your "team of explorers" moves through given text-based mazes according to the queue structure or stack structure.
 
@@ -70,7 +68,7 @@ Created a MyStack and MyQueue class, then a class to solve text-based mazes usin
 * Use your Stack and Queue to solve a maze
 * Compare differences between two solution strategies
 
-## Lab 4: Linked Lists!
+## Lab 4 - Linked Lists!
 
 Writes a doubly linked list class and an iterator.
 
