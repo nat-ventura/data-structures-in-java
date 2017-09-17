@@ -52,6 +52,8 @@ The practice included printing a pyramid of stars to the console (classic), writ
 
 ### Lab 2: Making My Own ArrayList
 
+The goal was to write "my own ArrayList" class, or MyArrayList to better understand everything Java's built-in ArrayList class. I also wrote a series of test to make sure that MyArrayList behaved the same as the given ArrayList.
+
 #### Goals
 * Learn about Java Collections Framework
 * Create a class using Generics
