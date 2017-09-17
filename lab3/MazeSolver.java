@@ -4,9 +4,9 @@
  */
 
 public abstract class MazeSolver {
-    private Maze x;
+    // private Maze x;
     public Maze childMaze;
-    private boolean isSolved = false;
+    // private boolean isSolved = false;
     private String finalPath = "";
     private Square [][] childMazeArray;
     
