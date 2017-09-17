@@ -72,6 +72,8 @@ Created a MyStack and MyQueue class, then a class to solve text-based mazes usin
 
 ### Lab 4: Linked Lists!
 
+Writes a doubly linked list class and an iterator.
+
 #### Goals
 * Implement a doubly linked list
 * Build an iterator
