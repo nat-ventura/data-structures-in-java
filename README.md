@@ -11,6 +11,8 @@ I'm working through a class on data structures using a college syllabus (I'm try
 
 ## Major Concepts
 
+Many exercises in computer science fundamentals are available online (LeetCode, HackerRank, Cracking the Coding Interview, etc.)-- but I figured that it would also be helpful for me to learn data structure fundamentals in a purposefully structured format.
+
 #### Data Structures
 * ArrayLists
 * Linked Structures, especially singly and doubly linked lists
@@ -34,11 +36,13 @@ I'm working through a class on data structures using a college syllabus (I'm try
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-There are many ways to practice computer science fundamentals online (LeetCode, HackerRank, Cracking the Coding Interview)-- but I figured that it would also be helpful for me to learn data structure fundamentals in a purposefully structured format.
-
 ## Projects
 
 ### Lab 1: Java Java
+
+This lab was mostly reviewing concepts learned in Python and getting more familiar with Java.
+
+The practice included printing a pyramid of stars to the console (classic), writing a High-Low numeric guessing game, writing a program that redacts certain words from documents, and creating a Benford analysis of numbers in a given file of numbers.
 
 #### Goals
 * Practice working with Java
