@@ -21,4 +21,12 @@ public class MyOtherStack<T> {
 	return stack.remove(--top);
     }
 
+    public static void main(String[] args) {
+	MyOtherStack<Integer> s = new MyOtherStack<Integer>();
+	s.push(17);
+	int i = s.pop();
+	System.out.format("%4d%n", i);
+
+    }
+
 }
