@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * @author natalievillasana
+ * @author natventura
  *
  */
 
@@ -17,5 +17,8 @@ public class MyOtherStack<T> {
 	stack.add(top++, item);
     }
 
+    public T pop() {
+	return stack.remove(--top);
+    }
 
 }
