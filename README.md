@@ -1,10 +1,10 @@
 # Data Structures in Java
 
-I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used. I'm working with Java in Eclipse.
+I'm working through a class on data structures using a college syllabus (I'm trying not to post too much info about the particular course in case any current students stumble upon this!). My goal is to learn how these data structures work and how/when they can be used. I'm working with Java in Eclipse.
 
 ## Table of Contents
 * [Major Concepts](#major-concepts)
-* [Lab 1 - Java Java](#lab-1---java-java)
+* [Lab 1 - Reviewing Fundamentals](#lab-1---reviewing-fundamentals)
 * [Lab 2 - Making My Own ArrayList](#lab-2---making-my-own-arraylist)
 * [Lab 3 - Navigating Mazes with Stacks and Queues!](#lab-3---navigating-mazes-with-stacks-and-queues)
 * [Lab 4 - Linked Lists!](#lab-4---linked-lists)
@@ -36,7 +36,7 @@ Many exercises in computer science fundamentals are available online (LeetCode, 
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-## Lab 1 - Java Java
+## Lab 1 - Reviewing Fundamentals
 
 This lab was mostly reviewing concepts learned in Python and getting more familiar with Java.
 
