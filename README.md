@@ -59,8 +59,10 @@ The goal was to write "my own ArrayList" class, or MyArrayList to better underst
 * Practice using JUnit for proper testing
 
 #### Extra Notes
-* MyArrayList implements the Java List Interface, so we have to provide implementation for all of the abstract methods that it contains.
+* MyArrayList implements the Java List Interface, so we have to provide implementation for all of the abstract methods that it contains. Some methods are also redundant because they can be implemented by other methods, i.e. `isEmpty()` can be implemented by returning `size()==0`.
+* AbstractList provides some basic and default behavior for a List. Some aren't implemented and some have inefficient implementation and need to be overridden.
 * The backing storage for an ArrayList is an array, meaning an ArrayList is basically just an array with the extra functionality of dynamic resizing.
+* The number of spaces in the array (ITS CAPACITY) can be different than the number of items CURRENTLY IN the MyArrayList instance (its SIZE). Capacity must always be greater than or equal to the size-- otherwise not everything is being stored.
 * The following line helps allocate an array when workin with a generic type:
 ` E[] someArray=(E [])new Object[numElements]; `
 
