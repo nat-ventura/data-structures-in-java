@@ -36,11 +36,7 @@ Many exercises in computer science fundamentals are available online (LeetCode, 
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-<<<<<<< HEAD
-## Lab 1 - Java Basics
-=======
 ## Lab 1 - Reviewing Fundamentals
->>>>>>> 5da0cb910b295ee4e5775480d7f8eceed5fe626c
 
 This lab was mostly reviewing concepts learned in Python and getting more familiar with Java.
 
@@ -63,6 +59,7 @@ The goal was to write "my own ArrayList" class, or MyArrayList to better underst
 * Practice using JUnit for proper testing
 
 #### Extra Notes
+* MyArrayList implements the Java List Interface, so we have to provide implementation for all of the abstract methods that it contains.
 * The backing storage for an ArrayList is an array, meaning an ArrayList is basically just an array with the extra functionality of dynamic resizing.
 * The following line helps allocate an array when workin with a generic type:
 ` E[] someArray=(E [])new Object[numElements]; `
