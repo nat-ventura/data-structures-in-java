@@ -36,7 +36,7 @@ Many exercises in computer science fundamentals are available online (LeetCode, 
 * Minimum Spanning Tree for an undirected graph
 * Disjoint sets
 
-## Lab 1 - Java Java
+## Lab 1 - Java Basics
 
 This lab was mostly reviewing concepts learned in Python and getting more familiar with Java.
 
@@ -57,6 +57,12 @@ The goal was to write "my own ArrayList" class, or MyArrayList to better underst
 * Create a class using Generics
 * Use an Abstract class to jumpstart implementation
 * Practice using JUnit for proper testing
+
+#### Extra Notes
+* The backing storage for an ArrayList is an array, meaning an ArrayList is basically just an array with the extra functionality of dynamic resizing.
+* The following line helps allocate an array when workin with a generic type:
+` E[] someArray=(E [])new Object[numElements]; `
+
 
 ## Lab 3 - Navigating Mazes with Stacks and Queues!
 
